@@ -1,26 +1,33 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var personCount: Int = 1
+    @StateObject var model = Model()
+    @State var tabSelection = 0
     
     var body: some View {
-        VStack {
-            Text("Little Lemon")
-            Text("Reservations")
-            Stepper {
-                Text("Reservation for: \(personCount)")
-            } onIncrement: {
-                personCount += 1
-            } onDecrement: {
-                personCount = (personCount == 1) ? 1 : personCount - 1
-            }
+        TabView(selection: $model.tabViewSelectedIndex) {
+            LocationsView()
+                .tag(0)
+                .tabItem {
+                    if !model.displayingReservationForm {
+                        Label("Locations", systemImage: "fork.knife")
+                    }
+                }
+            
+            ReservationView()
+                .tag(1)
+                .tabItem {
+                    if !model.displayingReservationForm {
+                        Label("Reservation", systemImage: "square.and.pencil")
+                    }
+                }
         }
-        .padding()
+        .environmentObject(model)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(personCount: 10)
+        ContentView()
     }
 }
