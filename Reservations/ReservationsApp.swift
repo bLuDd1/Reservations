@@ -12,6 +12,7 @@ struct ReservationsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            ReservationForm()
         }
     }
 }
