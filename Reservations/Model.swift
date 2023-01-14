@@ -22,5 +22,16 @@ class Model: ObservableObject {
                            phoneNumber: "(415) 555-9813")
     ]
     
+    @Published var reservation = Reservation()
+    @Published var displayingReservationForm = false
+    @Published var temporaryReservation = Reservation()
+    @Published var followNavitationLink = false
     
+    @Published var displayTabBar = true
+    @Published var tabBarChanged = false
+    @Published var tabViewSelectedIndex = Int.max {
+        didSet {
+            tabBarChanged = true
+        }
+    }
 }
