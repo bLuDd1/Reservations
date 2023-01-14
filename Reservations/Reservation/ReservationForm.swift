@@ -108,8 +108,6 @@ struct ReservationForm: View {
                 model.displayingReservationForm = false
             }
         }
-            }
-        }
     }
 }
 
