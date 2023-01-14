@@ -12,7 +12,6 @@
 		1320A4FE294D2B24000DB5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1320A4FD294D2B24000DB5FE /* Assets.xcassets */; };
 		1320A501294D2B24000DB5FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1320A500294D2B24000DB5FE /* Preview Assets.xcassets */; };
 		137CDD84294EA22D00FE2671 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137CDD83294EA22D00FE2671 /* ReservationForm.swift */; };
-		13DB040529723B21004D0811 /* LittleLemonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB040429723B21004D0811 /* LittleLemonLogo.swift */; };
 		13DB040A29723DFD004D0811 /* RestaurantLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB040929723DFD004D0811 /* RestaurantLocation.swift */; };
 		13DB040C29723E41004D0811 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB040B29723E41004D0811 /* RestaurantView.swift */; };
 		13DB040E297244B8004D0811 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB040D297244B8004D0811 /* Model.swift */; };
@@ -28,7 +27,6 @@
 		1320A4FD294D2B24000DB5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1320A500294D2B24000DB5FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		137CDD83294EA22D00FE2671 /* ReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
-		13DB040429723B21004D0811 /* LittleLemonLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonLogo.swift; sourceTree = "<group>"; };
 		13DB040929723DFD004D0811 /* RestaurantLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantLocation.swift; sourceTree = "<group>"; };
 		13DB040B29723E41004D0811 /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
 		13DB040D297244B8004D0811 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 				1320A4F9294D2B23000DB5FE /* ReservationsApp.swift */,
 				1320A4FB294D2B23000DB5FE /* ContentView.swift */,
 				13DB040D297244B8004D0811 /* Model.swift */,
-				13DB040429723B21004D0811 /* LittleLemonLogo.swift */,
 				13DB040629723DA8004D0811 /* Restaurant */,
 				13DB040F29724601004D0811 /* Reservation */,
 				1320A4FD294D2B24000DB5FE /* Assets.xcassets */,
@@ -181,7 +178,6 @@
 				1320A4FC294D2B23000DB5FE /* ContentView.swift in Sources */,
 				13DB041329724654004D0811 /* Reservation.swift in Sources */,
 				1320A4FA294D2B23000DB5FE /* ReservationsApp.swift in Sources */,
-				13DB040529723B21004D0811 /* LittleLemonLogo.swift in Sources */,
 				137CDD84294EA22D00FE2671 /* ReservationForm.swift in Sources */,
 				13DB041129724628004D0811 /* ReservationView.swift in Sources */,
 				13DB041529732DE4004D0811 /* LocationsView.swift in Sources */,

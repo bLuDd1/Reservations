@@ -4,8 +4,6 @@ struct LocationsView: View {
     @EnvironmentObject var model: Model
     var body: some View {
         VStack {
-            LittleLemonLogo()
-                .padding(.top, 50)
             Text(model.displayingReservationForm ? "Reservation Details" :
                     "Select a location")
             .padding([.leading, .trailing], 40)
