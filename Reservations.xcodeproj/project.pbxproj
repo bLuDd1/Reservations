@@ -18,6 +18,7 @@
 		13DB040E297244B8004D0811 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB040D297244B8004D0811 /* Model.swift */; };
 		13DB041129724628004D0811 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB041029724628004D0811 /* ReservationView.swift */; };
 		13DB041329724654004D0811 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB041229724654004D0811 /* Reservation.swift */; };
+		13DB041529732DE4004D0811 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB041429732DE4004D0811 /* LocationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		13DB040D297244B8004D0811 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		13DB041029724628004D0811 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
 		13DB041229724654004D0811 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		13DB041429732DE4004D0811 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		1320A4F8294D2B23000DB5FE /* Reservations */ = {
 			isa = PBXGroup;
 			children = (
+				13DB041429732DE4004D0811 /* LocationsView.swift */,
 				1320A4F9294D2B23000DB5FE /* ReservationsApp.swift */,
 				1320A4FB294D2B23000DB5FE /* ContentView.swift */,
 				13DB040D297244B8004D0811 /* Model.swift */,
@@ -181,6 +184,7 @@
 				13DB040529723B21004D0811 /* LittleLemonLogo.swift in Sources */,
 				137CDD84294EA22D00FE2671 /* ReservationForm.swift in Sources */,
 				13DB041129724628004D0811 /* ReservationView.swift in Sources */,
+				13DB041529732DE4004D0811 /* LocationsView.swift in Sources */,
 				13DB040A29723DFD004D0811 /* RestaurantLocation.swift in Sources */,
 				13DB040C29723E41004D0811 /* RestaurantView.swift in Sources */,
 			);
