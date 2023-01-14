@@ -122,6 +122,6 @@ struct ReservationView: View {
 
 struct ReservationView_Previews: PreviewProvider {
     static var previews: some View {
-        ReservationView()
+        ReservationView().environmentObject(Model())
     }
 }
