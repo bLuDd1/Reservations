@@ -1,10 +1,3 @@
-//
-//  ReservationForm.swift
-//  Reservations
-//
-//  Created by Dima Tavlui on 18.12.2022.
-//
-
 import SwiftUI
 
 struct ReservationForm: View {

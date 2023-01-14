@@ -1,10 +1,3 @@
-//
-//  RestaurantView.swift
-//  Reservations
-//
-//  Created by Dima Tavlui on 14.01.2023.
-//
-
 import SwiftUI
 
 struct RestaurantView: View {
