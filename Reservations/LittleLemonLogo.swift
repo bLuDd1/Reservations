@@ -5,9 +5,3 @@ struct LittleLemonLogo: View {
         Image("littleLemonLogo")
     }
 }
-
-struct LittleLemonLogo_Previews: PreviewProvider {
-    static var previews: some View {
-        LittleLemonLogo()
-    }
-}

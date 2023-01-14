@@ -179,10 +179,3 @@ struct ReservationForm: View {
             return emailValidationPredicate.evaluate(with: email)
         }
     }
-
-struct ReservationForm_Previews: PreviewProvider {
-    static var previews: some View {
-        let sampleRestaurant = RestaurantLocation(city: "Las Vegas", neighborhood: "Downtown", phoneNumber: "(702) 555-9898")
-        ReservationForm(sampleRestaurant).environmentObject(Model())
-    }
-}

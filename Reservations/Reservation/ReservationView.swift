@@ -119,9 +119,3 @@ struct ReservationView: View {
         .padding(50)
     }
 }
-
-struct ReservationView_Previews: PreviewProvider {
-    static var previews: some View {
-        ReservationView().environmentObject(Model())
-    }
-}

@@ -22,10 +22,3 @@ struct RestaurantView: View {
         }
     }
 }
-
-struct RestaurantView_Previews: PreviewProvider {
-    static var previews: some View {
-        let sample = RestaurantLocation(city: "Las Vegas", neighborhood: "Downtown", phoneNumber: "(702) 555-9898")
-        RestaurantView(sample)
-    }
-}

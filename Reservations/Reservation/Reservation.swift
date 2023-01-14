@@ -4,13 +4,13 @@ struct Reservation {
     var restaurant: RestaurantLocation
     var customerName: String
     var customerEmail: String
-    var customerPhoneNumber:String
-    var reservationDate:Date
-    var party:Int
-    var specialRequests:String
+    var customerPhoneNumber: String
+    var reservationDate: Date
+    var party: Int
+    var specialRequests: String
     var id = UUID()
     
-    init(restaurant: RestaurantLocation,
+    init(restaurant: RestaurantLocation = RestaurantLocation(),
          customerName: String = "",
          customerEmail: String = "",
          customerPhoneNumber: String = "",
